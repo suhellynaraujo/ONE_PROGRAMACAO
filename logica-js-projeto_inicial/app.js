@@ -1,10 +1,8 @@
-alert('Boas vindas ao jogo do nnúmero secreto!');
 
-let numeroSecreto = 5;
+let senhaDoSistema = "senhaTeste!";
 
-let chute = prompt('Escolha um número entre 1 e 10');
+let senha = prompt("Digite a senha do sistema:");
 
-if(chute == numeroSecreto){
-
-    console.log('Isso ai! Você descobriu o número secreto (5)');
+if (senha = senhaDoSistema){
+    alert("Acesso ao sistema garantido");
 }
