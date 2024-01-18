@@ -1,4 +1,4 @@
-# ONE_PROGRAMACAO
+# Desafio hora da prática
 Mostre um alerta com a mensagem "Boas vindas ao nosso site!".
 
 Declare uma variável chamada nome e atribua a ela o valor "Lua".
