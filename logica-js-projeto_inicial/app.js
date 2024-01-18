@@ -1,6 +1,6 @@
 alert('Boas vindas ao jogo do nnúmero secreto!');
 
-let numeroSecreto = 29;
+let numeroSecreto = 5;
 
-prompt('Escolha um número entre 1 e 30');
+prompt('Escolha um número entre 1 e 10');
 
