@@ -1,0 +1,10 @@
+body{
+    background-color: bisque;
+}
+
+ .Desafios{
+    
+display: flex;
+justify-content: center;
+
+}
