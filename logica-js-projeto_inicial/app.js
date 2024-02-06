@@ -2,6 +2,7 @@ alert('Boas vindas ao jogo do número secreto');
 let numeroSecreto = 5;
 console.log(numeroSecreto);
 let chute;
+
 // enquanto chute não for igual ao numero secreto 
 //!= não for igual (diferente)
 while (chute != numeroSecreto) {
