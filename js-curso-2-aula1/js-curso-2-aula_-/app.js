@@ -1,4 +1,5 @@
 let listaDeNumerosSorteados = [];
+let numeroLimit = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -38,7 +39,12 @@ function verificarChute(){
 // fução com retorno
 function gerarNumeroAleatorio(){
   //return parseInt(Math.random() * 10 + 1);
-  let numeroEscolhido = parseInt(Math.random() * 10 + 1);
+  let numeroEscolhido = parseInt(Math.random() *  numeroLimit + 1);
+  let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
+
+  if(quantidadeDeElementosNaLista == numeroLimit){
+    listaDeNumerosSorteados = [];
+  }
   //includes- verifica se os itenns estão na lista
   if (listaDeNumerosSorteados.includes(numeroEscolhido)){
     return gerarNumeroAleatorio();
