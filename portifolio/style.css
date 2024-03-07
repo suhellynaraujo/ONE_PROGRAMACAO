@@ -3,6 +3,7 @@ body{
     color: #f6f6f6;
 }
 
-strong{
-    color: darkmagenta;
+.titulo-destaque{
+    color: rgb(211, 121, 184);
 }
+
