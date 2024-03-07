@@ -6,6 +6,7 @@ body{
     height: 100vh;
     background-color: #000;
     color: #f6f6f6;
+    box-sizing: border-box;
 }
 
 .titulo-destaque, .especialidade{
