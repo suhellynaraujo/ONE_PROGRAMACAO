@@ -7,7 +7,7 @@ body{
     color: #f6f6f6;
 }
 
-.titulo-destaque{
+.titulo-destaque, .especialidade{
     color: rgb(211, 121, 184);
 }
 
