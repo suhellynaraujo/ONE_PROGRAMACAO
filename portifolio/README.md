@@ -9,3 +9,8 @@ https://docs.emmet.io/ ou Emmet extesão
 ### Tudo sobre CSS
 
 https://www.w3schools.com/css/default.asp
+
+
+### Tudo sobre box-sizing
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
