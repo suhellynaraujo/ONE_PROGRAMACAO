@@ -13,3 +13,9 @@ body{
     color: rgb(211, 121, 184);
 }
 
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
