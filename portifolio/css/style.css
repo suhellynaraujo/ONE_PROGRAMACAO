@@ -43,7 +43,7 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 25px;
     font-family: "Krona One", sans-serif;
 }
 
@@ -52,7 +52,7 @@ body{
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -67,7 +67,7 @@ body{
 .apresentacao__conteudo_subtitulo{
     font-family: "Krona One", sans-serif;
     font-weight: 400px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .apresentacao__links__link{
@@ -78,7 +78,7 @@ body{
     width: 378px;
     text-align: center;
     border-radius: 16px;
-    font-size: 24px;
+    font-size: 20px;
     padding: 21.5px 0;
     text-decoration: none;
     color: #f6f6f6;
@@ -92,8 +92,8 @@ body{
 }
 
 .apresentacao__links__link_icone{
-    width: 30px;
-    height: 27px;
+    width: 20px;
+    height: 20px;
 
 }
 
