@@ -21,3 +21,13 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ### Tudo sobre fontes
 
 https://fonts.google.com/
+
+### Tudo sobre paleta de cores
+
+https://coolors.co/
+
+https://colorhunt.co/
+
+https://color.adobe.com/pt/
+
+https://colors.muz.li/
