@@ -56,3 +56,9 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
 }
+
+.photo{
+    width: 400px;
+    height: 500px;
+    border-radius: 80px;
+}
