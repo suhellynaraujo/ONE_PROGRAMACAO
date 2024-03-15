@@ -42,10 +42,11 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 5% 15%;
+    gap: 82px
 }
 
 .apresentacao__conteudo{
-    width: 615px; 
+    width: 50%; 
     display: flex; 
     flex-direction: column;
     gap: 40px;
@@ -79,12 +80,12 @@ body{
     font-size: 1.25rem;
 }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
 /*background-color: rgb(211, 121, 184);*/
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 16px;
     font-size: 1.25rem;
@@ -106,8 +107,9 @@ body{
 
 }
 
-.photo{
-    height: 500px;
+.apresentacao__imagem{
+   
+    width: 50%;
     border-radius: 80px;
     border: 5px solid var(--cor-terciaria);
 }
@@ -120,4 +122,10 @@ body{
    font-family: var(--fonte-secundaria);
    font-size: 1.125rem;
    font-weight: 400px;
+}
+
+@media(max-width: 1080px) {    
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
 }

@@ -31,3 +31,7 @@ https://colorhunt.co/
 https://color.adobe.com/pt/
 
 https://colors.muz.li/
+
+### Tudo sobre media query
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries_for_accessibility
