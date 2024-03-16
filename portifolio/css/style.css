@@ -57,6 +57,12 @@ body{
     font-family: var(--fonte-principal);
 }
 
+.apresentacao__conteudo__titulo__sobre__mim{
+    font-size: 1.57rem;
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+}
+
 .titulo-destaque, .especialidade{
     color: var(--cor-terciaria);
 }
@@ -101,7 +107,7 @@ body{
     background-color:  var(--cor-terciaria);
 }
 
-.apresentacao__links__link_icone{
+.apresentacao__links__navegacao_icone{
     width: 20px;
     height: 20px;
 
@@ -132,9 +138,88 @@ body{
     .cabecalho_menu{
       justify-content: center;
     } 
-    
+
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
     }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+}
+
+
+@media(max-width: 350px) {   
+    .cabecalho{
+        padding: 10%;
+    } 
+
+    .cabecalho_menu{
+        padding: 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    } 
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+        align-items: center;
+    }
+
+}
+
+
+@media(max-width:280px) {   
+    .cabecalho{
+        padding: 10%;
+    } 
+
+    .cabecalho_menu{
+        padding: 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    } 
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+        align-items: center;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+       text-align: center;
+    }
+
+    .apresentacao__links__navegacao {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .apresentacao__links__navegacao_icone {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .apresentacao__links__navegacao span {
+        display: none;
+    }
+
+    .apresentacao__conteudo_subtitulo {
+        text-align: center;
+    }
+
+    .rodape{
+        width: 100%; /* Garante que a div ocupe toda a largura disponível */
+        
+    }
+    
 
 }
