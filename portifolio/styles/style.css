@@ -133,6 +133,12 @@ body{
     font-weight: 400;
 }
 
+@media(min-width: 2560px){    
+    #rodape {
+        position: absolute;
+    }
+}
+
 @media(max-width: 1080px) {   
     .cabecalho{
         padding: 10%;
