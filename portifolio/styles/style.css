@@ -151,6 +151,9 @@ body{
         width: auto;
     }
 
+    .rodape{
+        position: relative; 
+    }
 }
 
 
